@@ -1,8 +1,10 @@
 pipeline {
   agent any
   stages {
-    stage('Build') {
-        echo 'Build from Jenkinsfile'
+    stage('Print') {
+      steps {
+        bat 'echo message'
       }
+    }
   }
 }
