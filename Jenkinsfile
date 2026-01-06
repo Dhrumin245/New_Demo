@@ -1,9 +1,9 @@
 pipeline {
   agent any
-stages {
-  stage('Build') {
-    steps {
-      echo 'Build from Jenkinsfile'
+  stages {
+    stage('Build') {
+      steps {
+        echo 'Build from Jenkinsfile'
       }
     }
   }
